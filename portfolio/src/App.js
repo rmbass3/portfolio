@@ -2,12 +2,14 @@ import './App.css';
 import React from "react"
 import Home from './components/Home';
 import About from './components/About';
+import Navibar from './components/Navibar';
 
 
-function App({options}) {
+function App() {
 
   return (
     <div className="App">
+      <Navibar/>
       <Home/>
       <About/>
     </div>

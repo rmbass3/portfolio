@@ -1,6 +1,20 @@
 :root {
   --dark-blue: #0D1B2A;
-  --blue: #2F4659
+  --blue: #2F4659;
+  --white: #E0E1DD;
+  --ocean: #415A77;
+}
+
+.App .navibar {
+  background-color: var(--ocean)!important;
+}
+
+.navibar .nav-link {
+
+}
+
+.home, .about {
+  height: 100vh;
 }
 
 .home {
@@ -9,4 +23,8 @@
 
 .about {
   background-color: var(--blue);
+}
+
+.home-title, .about-title {
+  color: var(--white);
 }
