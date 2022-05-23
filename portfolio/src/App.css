@@ -1,11 +1,12 @@
-.home-section, .about-section {
-  height: 100vh;
+:root {
+  --dark-blue: #0D1B2A;
+  --blue: #2F4659
 }
 
-.home-section {
-  background-color: #0D1B2A;
+.home {
+  background-color: var(--dark-blue);
 }
 
-.about-section {
-  background-color: #2F4659;
+.about {
+  background-color: var(--blue);
 }

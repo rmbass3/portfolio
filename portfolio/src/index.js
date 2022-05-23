@@ -3,22 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let options = {
-  sectionClassName:     'section',
-  anchors:              ['home', 'about'],
-  scrollBar:            false,
-  verticalAlign:        false,
-  arrowNavigation:      true
-};
-
 root.render(
-  
   <React.StrictMode>
-    <App options={options}/>
+    <App/>
   </React.StrictMode>
 );
 
