@@ -1,8 +1,8 @@
-import react from "react"
+import React from "react"
 
 function Home(props) {
   return (
-    <div id="home">
+    <div className="home">
       <h1>Hey, I'm Ryan Bass</h1>
     </div>
   )

@@ -1,0 +1,11 @@
+.home-section, .about-section {
+  height: 100vh;
+}
+
+.home-section {
+  background-color: #0D1B2A;
+}
+
+.about-section {
+  background-color: #2F4659;
+}

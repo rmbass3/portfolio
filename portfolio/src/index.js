@@ -4,10 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let options = {
+  sectionClassName:     'section',
+  anchors:              ['home', 'about'],
+  scrollBar:            false,
+  verticalAlign:        false,
+  arrowNavigation:      true
+};
+
 root.render(
+  
   <React.StrictMode>
-    <App />
+    <App options={options}/>
   </React.StrictMode>
 );
 
