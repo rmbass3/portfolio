@@ -5,12 +5,13 @@
   --ocean: #415A77;
 }
 
-.App .navibar {
-  background-color: var(--ocean)!important;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.navibar .nav-link {
-
+.App .navibar {
+  background-color: var(--ocean)!important;
 }
 
 .home, .about {
@@ -27,4 +28,12 @@
 
 .home-title, .about-title {
   color: var(--white);
+}
+
+.home-title {
+  font-size: 7vw;
+}
+
+.thinking-svg {
+  width: 50vw;
 }
