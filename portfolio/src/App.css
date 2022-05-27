@@ -3,6 +3,8 @@
   --blue: #2F4659;
   --white: #E0E1DD;
   --ocean: #415A77;
+  --light-blue: #778DA9;
+  --lighter-blue: #b3cff3;
 }
 
 html, body {
@@ -38,6 +40,12 @@ html, body {
   width: 20rem;
 }
 
+.home-desc {
+  color: var(--white);
+  font-style: italic;
+  font-size: 1rem;
+}
+
 .home-title-col {
   text-align: center;
   white-space: nowrap;
@@ -45,6 +53,39 @@ html, body {
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+}
+
+.home-contact-button, .home-about-button {
+  width: 15rem;
+  height: 5rem;
+  border-radius: 90px;
+  border: 2px solid var(--light-blue);
+  font-size: 1.5rem;
+  transition-duration: 0.4s;
+}
+
+.home-contact-button {
+  background-color: var(--light-blue);
+}
+
+.home-contact-button:hover {
+  background-color: var(--lighter-blue);
+}
+
+.home-about-button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.home-about-button:hover {
+  background-color: var(--light-blue);
+  color: black;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none!important;
+  color: inherit!important;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -58,6 +99,16 @@ html, body {
   
   .thinking-svg {
     width: 26rem;
+  }
+
+  .home-desc {
+    font-size: 1.3rem;
+  }
+
+  .home-contact-button, .home-about-button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -74,6 +125,16 @@ html, body {
   .thinking-svg {
     width: 26rem;
   }
+
+  .home-desc {
+    font-size: 1rem;
+  }
+
+  .home-contact-button, .home-about-button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -84,6 +145,16 @@ html, body {
   
   .thinking-svg {
     width: 30rem;
+  }
+
+  .home-desc {
+    font-size: 1.3rem;
+  }
+
+  .home-contact-button, .home-about-button {
+    width: 12rem;
+    height: 5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -96,6 +167,16 @@ html, body {
   .thinking-svg {
     width: 36rem;
   }
+
+  .home-desc {
+    font-size: 1.7rem;
+  }
+
+  .home-contact-button, .home-about-button {
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -106,5 +187,15 @@ html, body {
   
   .thinking-svg {
     width: 40rem;
+  }
+
+  .home-desc {
+    font-size: 2rem;
+  }
+
+  .home-contact-button, .home-about-button {
+    width: 17rem;
+    height: 5rem;
+    font-size: 1.5rem;
   }
 }
