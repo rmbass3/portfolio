@@ -31,9 +31,80 @@ html, body {
 }
 
 .home-title {
-  font-size: 7vw;
+  font-size: 3rem;
 }
 
 .thinking-svg {
-  width: 50vw;
+  width: 20rem;
+}
+
+.home-title-col {
+  text-align: center;
+  white-space: nowrap;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .home-title {
+    font-size: 4rem;
+  }
+  
+  .thinking-svg {
+    width: 26rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .home-title-col {
+    text-align: left;
+  }
+
+  .home-title {
+    font-size: 3.5rem;
+  }
+  
+  .thinking-svg {
+    width: 26rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home-title {
+    font-size: 4.5rem;
+  }
+  
+  .thinking-svg {
+    width: 30rem;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home-title {
+    font-size: 5.5rem;
+  }
+  
+  .thinking-svg {
+    width: 36rem;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .home-title {
+    font-size: 6rem;
+  }
+  
+  .thinking-svg {
+    width: 40rem;
+  }
 }

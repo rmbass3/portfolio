@@ -8,12 +8,11 @@ function Home(props) {
   return (
     <div className="home d-flex align-items-center">
       <Container>
-        <Row>
-          <Col xs={{ span:12, order:1 }} md={{ span:6, order:12 }}>
-            <h1 className="home-title">Hey, I'm</h1>
-            <h1 className="home-title">Ryan Bass</h1>
+        <Row className="">
+          <Col className="home-title-col mt-5 mt-md-0" xs={{ span:12, order:1 }} md={{ span:6, order:12 }}>
+            <h1 className="home-title">Hey, I'm <br/> Ryan Bass</h1>
           </Col>
-          <Col className="d-flex align-items-center" xs={{ span:12, order:12 }} md={{ span:6, order:1 }}>
+          <Col className="d-flex align-items-center justify-content-center" xs={{ span:12, order:12 }} md={{ span:6, order:1 }}>
             <img className="thinking-svg" src={thinking} alt="thinking"/>
           </Col>
         </Row>
