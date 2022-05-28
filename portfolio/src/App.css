@@ -22,6 +22,7 @@ html, body {
 
 .home {
   background-color: var(--dark-blue);
+  position: relative;
 }
 
 .about {
@@ -93,6 +94,105 @@ a, a:hover, a:focus, a:active {
   color: inherit!important;
 }
 
+.home-parallax {
+  position: absolute;
+  z-index: 1;
+
+}
+
+.square-s {
+  width: 25%;
+  transform: rotate(90deg);
+}
+
+.square-m {
+  width: 50%;
+}
+
+.square-l {
+  width: 75%;
+  transform: rotate(270deg);
+}
+
+#square1 {
+  left: 20%;
+  top: 25%;
+}
+
+#square2 {
+  left: 80%;
+  top: 40%;
+}
+
+#square3 {
+  left: 15%;
+  top: 40%;
+}
+
+#square4 {
+  display: none;
+}
+
+#square5 {
+  display: none;
+}
+
+#square6 {
+  display: none;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-s {
+  -webkit-animation: rotating 3s linear infinite;
+  -moz-animation: rotating 3s linear infinite;
+  -ms-animation: rotating 3s linear infinite;
+  -o-animation: rotating 3s linear infinite;
+  animation: rotating 3s linear infinite;
+}
+
+.rotating-m {
+  -webkit-animation: rotating 4s linear infinite;
+  -moz-animation: rotating 4s linear infinite;
+  -ms-animation: rotating 4s linear infinite;
+  -o-animation: rotating 4s linear infinite;
+  animation: rotating 4s linear infinite;
+}
+
+.rotating-l {
+  -webkit-animation: rotating 5s linear infinite;
+  -moz-animation: rotating 5s linear infinite;
+  -ms-animation: rotating 5s linear infinite;
+  -o-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -118,6 +218,33 @@ a, a:hover, a:focus, a:active {
 
   .home-blob {
     width: 25rem;
+  }
+
+  #square1 {
+    left: 20%;
+    top: 25%;
+  }
+  
+  #square2 {
+    left: 80%;
+    top: 40%;
+  }
+  
+  #square3 {
+    left: 15%;
+    top: 40%;
+  }
+  
+  #square4 {
+    display: none;
+  }
+  
+  #square5 {
+    display: none;
+  }
+  
+  #square6 {
+    display: none;
   }
 }
 
@@ -148,6 +275,39 @@ a, a:hover, a:focus, a:active {
   .home-blob {
     width: 20rem;
   }
+
+  #square1 {
+    left: 14%;
+    top: 25%;
+  }
+  
+  #square2 {
+    left: 78%;
+    top: 27%;
+  }
+  
+  #square3 {
+    left: 37%;
+    top: 27%;
+  }
+  
+  #square4 {
+    display: block;
+    left: 46%;
+    top: 76%;
+  }
+  
+  #square5 {
+    display: block;
+    left: 89%;
+    top: 73%;
+  }
+  
+  #square6 {
+    display: block;
+    left: 16%;
+    top: 77%;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -174,6 +334,36 @@ a, a:hover, a:focus, a:active {
   .home-blob {
     width: 30rem;
   }
+
+  #square1 {
+    left: 14%;
+    top: 25%;
+  }
+  
+  #square2 {
+    left: 78%;
+    top: 27%;
+  }
+  
+  #square3 {
+    left: 37%;
+    top: 27%;
+  }
+  
+  #square4 {
+    left: 46%;
+    top: 76%;
+  }
+  
+  #square5 {
+    left: 89%;
+    top: 73%;
+  }
+  
+  #square6 {
+    left: 16%;
+    top: 77%;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -193,11 +383,41 @@ a, a:hover, a:focus, a:active {
   .home-contact-button, .home-about-button {
     width: 15rem;
     height: 5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .home-blob {
     width: 35rem;
+  }
+
+  #square1 {
+    left: 14%;
+    top: 25%;
+  }
+  
+  #square2 {
+    left: 78%;
+    top: 27%;
+  }
+  
+  #square3 {
+    left: 37%;
+    top: 27%;
+  }
+  
+  #square4 {
+    left: 51%;
+    top: 76%;
+  }
+  
+  #square5 {
+    left: 82%;
+    top: 73%;
+  }
+  
+  #square6 {
+    left: 16%;
+    top: 77%;
   }
 }
 
@@ -218,11 +438,41 @@ a, a:hover, a:focus, a:active {
   .home-contact-button, .home-about-button {
     width: 17rem;
     height: 5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .home-blob {
     color: var(--light-blue);
     width: 40rem;
+  }
+
+  #square1 {
+    left: 14%;
+    top: 25%;
+  }
+  
+  #square2 {
+    left: 78%;
+    top: 27%;
+  }
+  
+  #square3 {
+    left: 40%;
+    top: 20%;
+  }
+  
+  #square4 {
+    left: 51%;
+    top: 76%;
+  }
+  
+  #square5 {
+    left: 82%;
+    top: 73%;
+  }
+  
+  #square6 {
+    left: 16%;
+    top: 77%;
   }
 }

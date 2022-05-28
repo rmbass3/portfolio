@@ -2,12 +2,44 @@ import React from "react"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import { Parallax } from "react-scroll-parallax"
 import thinking from "../images/thinking.svg"
 import homeBlob from "../images/blob2.svg"
+import squares from "../images/squares.svg"
 
 function Home(props) {
   return (
     <div className="home d-flex align-items-center" id="home">
+      <Parallax speed={15} className="home-parallax" id="square1">
+        <div className="home-squares">
+          <img className="square-s rotating-s" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
+      <Parallax speed={10} className="home-parallax" id="square2">
+        <div className="home-squares">
+          <img className="square-m rotating-m" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
+      <Parallax speed={5} className="home-parallax" id="square3">
+        <div className="home-squares">
+          <img className="square-l rotating-l" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
+      <Parallax speed={15} className="home-parallax" id="square4">
+        <div className="home-squares">
+          <img className="square-s rotating-s" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
+      <Parallax speed={10} className="home-parallax" id="square5">
+        <div className="home-squares">
+          <img className="square-m rotating-m" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
+      <Parallax speed={5} className="home-parallax" id="square6">
+        <div className="home-squares">
+          <img className="square-l rotating-l" src={squares} alt="squares"/>
+        </div>
+      </Parallax>
       <Container>
         <Row className="home-row">
           <Col className="home-title-col mt-3 mt-md-0" xs={{ span:12, order:1 }} md={{ span:6, order:12 }}>
@@ -28,7 +60,6 @@ function Home(props) {
           </Col>
         </Row>
       </Container>
-      
     </div>
   )
 }
