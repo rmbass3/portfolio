@@ -39,6 +39,7 @@ html, body {
 
 .thinking-svg {
   width: 20rem;
+  transition-duration: 0.4s;
 }
 
 .home-desc {
@@ -55,6 +56,7 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
+  transition-duration: 0.4s;
 }
 
 .home-contact-button, .home-about-button {
@@ -87,6 +89,7 @@ html, body {
 .home-blob {
   color: var(--light-blue);
   width: 20rem;
+  transition-duration: 0.4s;
 }
 
 a, a:hover, a:focus, a:active {
@@ -97,6 +100,7 @@ a, a:hover, a:focus, a:active {
 .home-parallax {
   position: absolute;
   z-index: 1;
+  transition-duration: 0.4s;
 
 }
 
@@ -170,6 +174,35 @@ a, a:hover, a:focus, a:active {
   }
 }
 
+@-webkit-keyframes rotating-backwards /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotating-backwards {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
 .rotating-s {
   -webkit-animation: rotating 3s linear infinite;
   -moz-animation: rotating 3s linear infinite;
@@ -179,11 +212,11 @@ a, a:hover, a:focus, a:active {
 }
 
 .rotating-m {
-  -webkit-animation: rotating 4s linear infinite;
-  -moz-animation: rotating 4s linear infinite;
-  -ms-animation: rotating 4s linear infinite;
-  -o-animation: rotating 4s linear infinite;
-  animation: rotating 4s linear infinite;
+  -webkit-animation: rotating-backwards 4s linear infinite;
+  -moz-animation: rotating-backwards 4s linear infinite;
+  -ms-animation: rotating-backwards 4s linear infinite;
+  -o-animation: rotating-backwards 4s linear infinite;
+  animation: rotating-backwards 4s linear infinite;
 }
 
 .rotating-l {
@@ -282,19 +315,19 @@ a, a:hover, a:focus, a:active {
   }
   
   #square2 {
-    left: 78%;
+    left: 37%;
     top: 27%;
   }
   
   #square3 {
-    left: 37%;
+    left: 78%;
     top: 27%;
   }
   
   #square4 {
     display: block;
-    left: 46%;
-    top: 76%;
+    left: 49%;
+    top: 69%;
   }
   
   #square5 {
@@ -341,18 +374,18 @@ a, a:hover, a:focus, a:active {
   }
   
   #square2 {
-    left: 78%;
-    top: 27%;
-  }
-  
-  #square3 {
     left: 37%;
     top: 27%;
   }
   
+  #square3 {
+    left: 78%;
+    top: 27%;
+  }
+  
   #square4 {
-    left: 46%;
-    top: 76%;
+    left: 49%;
+    top: 69%;
   }
   
   #square5 {
@@ -396,18 +429,18 @@ a, a:hover, a:focus, a:active {
   }
   
   #square2 {
-    left: 78%;
-    top: 27%;
-  }
-  
-  #square3 {
     left: 37%;
     top: 27%;
   }
   
+  #square3 {
+    left: 78%;
+    top: 27%;
+  }
+  
   #square4 {
-    left: 51%;
-    top: 76%;
+    left: 49%;
+    top: 69%;
   }
   
   #square5 {
@@ -452,18 +485,18 @@ a, a:hover, a:focus, a:active {
   }
   
   #square2 {
-    left: 78%;
+    left: 37%;
     top: 27%;
   }
   
   #square3 {
-    left: 40%;
+    left: 78%;
     top: 20%;
   }
   
   #square4 {
-    left: 51%;
-    top: 76%;
+    left: 49%;
+    top: 69%;
   }
   
   #square5 {
