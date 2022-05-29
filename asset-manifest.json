@@ -1,15 +1,21 @@
 {
-  "files": {
-    "main.css": "/portfolio/static/css/main.80969c12.css",
-    "main.js": "/portfolio/static/js/main.46748ca0.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/portfolio/index.html",
-    "main.80969c12.css.map": "/portfolio/static/css/main.80969c12.css.map",
-    "main.46748ca0.js.map": "/portfolio/static/js/main.46748ca0.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.80969c12.css",
-    "static/js/main.46748ca0.js"
-  ]
+  "main.css": "/portfolio/static/css/main.e996761e.chunk.css",
+  "main.js": "/portfolio/static/js/main.663931af.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.663931af.chunk.js.map",
+  "static/js/1.325ca37f.chunk.js": "/portfolio/static/js/1.325ca37f.chunk.js",
+  "static/js/1.325ca37f.chunk.js.map": "/portfolio/static/js/1.325ca37f.chunk.js.map",
+  "static/css/2.94458453.chunk.css": "/portfolio/static/css/2.94458453.chunk.css",
+  "static/js/2.29b8f510.chunk.js": "/portfolio/static/js/2.29b8f510.chunk.js",
+  "static/js/2.29b8f510.chunk.js.map": "/portfolio/static/js/2.29b8f510.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.0f563a0e.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.0f563a0e.js.map",
+  "static/media/squares.svg": "/portfolio/static/media/squares.a33f606f.svg",
+  "static/media/thinking.svg": "/portfolio/static/media/thinking.aecef1de.svg",
+  "static/media/blob2.svg": "/portfolio/static/media/blob2.6e0ac25b.svg",
+  "static/media/rblogo_white.png": "/portfolio/static/media/rblogo_white.258b6ebf.png",
+  "static/css/main.e996761e.chunk.css.map": "/portfolio/static/css/main.e996761e.chunk.css.map",
+  "static/css/2.94458453.chunk.css.map": "/portfolio/static/css/2.94458453.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.ab3f8e8de43b27058608b655793708a5.js": "/portfolio/precache-manifest.ab3f8e8de43b27058608b655793708a5.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
