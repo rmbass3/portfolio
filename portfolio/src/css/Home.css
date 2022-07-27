@@ -1,32 +1,10 @@
-:root {
-  --dark-blue: #0D1B2A;
-  --blue: #2F4659;
-  --white: #E0E1DD;
-  --ocean: #415A77;
-  --light-blue: #778DA9;
-  --lighter-blue: #b3cff3;
-}
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-.App .navibar {
-  background-color: var(--ocean)!important;
-}
-
-.home, .about {
+.home {
   height: 100vh;
 }
 
 .home {
   background-color: var(--dark-blue);
   position: relative;
-}
-
-.about {
-  background-color: var(--blue);
 }
 
 .home-title, .about-title {
@@ -90,11 +68,6 @@ html, body {
   color: var(--light-blue);
   width: 20rem;
   transition-duration: 0.4s;
-}
-
-a, a:hover, a:focus, a:active {
-  text-decoration: none!important;
-  color: inherit!important;
 }
 
 .home-parallax {

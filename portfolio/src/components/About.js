@@ -1,3 +1,4 @@
+import "../css/About.css"
 import React from "react"
 
 function About(props) {

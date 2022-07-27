@@ -5,4 +5,24 @@ html body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  --dark-blue: #0D1B2A;
+  --blue: #2F4659;
+  --white: #E0E1DD;
+  --ocean: #415A77;
+  --light-blue: #778DA9;
+  --lighter-blue: #b3cff3;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+.App .navibar {
+  background-color: var(--ocean);
 }
