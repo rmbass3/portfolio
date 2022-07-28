@@ -7,13 +7,17 @@
   width: 90%;
 }
 
-.inner-text-col {
+.about-inner-text-col {
   background-color: var(--dark-blue);
   width: 90%;
 }
 
 .about-title {
   font-size: 2rem;
+}
+
+.about-paragraph-title {
+  font-size: 1.5rem;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
