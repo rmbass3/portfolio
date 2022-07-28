@@ -2,3 +2,44 @@
   height: 100vh;
   background-color: var(--blue);
 }
+
+.code-svg {
+  width: 90%;
+}
+
+.inner-text-col {
+  background-color: var(--dark-blue);
+  width: 90%;
+}
+
+.about-title {
+  font-size: 2rem;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+}
