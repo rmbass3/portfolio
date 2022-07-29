@@ -15,25 +15,25 @@ function About(props) {
             <img className="code-svg position-absolute" src={code} alt="code"/>
             <img className="about-blob" src={aboutBlob} alt="aboutBlob"/>
           </Col>
-          <Col className="about-text-col d-flex position-relative" xs={{ span:12, order:1 }} md={{ span:6, order:12 }}>
-            <div className="about-inner-text-col d-flex flex-column justify-content-start">
-              <p className="about-title text-white text-center my-5">About me</p>
+          <Col className="about-text-col d-flex position-relative justify-content-center mt-5 mt-md-0" xs={{ span:12, order:1 }} md={{ span:6, order:12 }}>
+            <div className="about-inner-text-col d-flex flex-column justify-content-start px-1 px-md-5 py-2 py-md-3">
+              <p className="about-title text-white text-center my-3 my-md-4">About me</p>
               <div className="about-paragraph">
-                <div className="about-paragraph-section text-white px-3 py-2">
+                <div className="about-paragraph-section text-white px-3 px-md-1 py-1 py-md-2">
                   <p className="about-paragraph-title">Interests</p>
                   <p className="about-paragraph-text">
                   I’m interested in learning a wide array of technologies within the field, 
                   and am willing to take on different projects.
                   </p>
                 </div>
-                <div className="about-paragraph-section text-white px-3 py-2">
+                <div className="about-paragraph-section text-white px-3 px-md-1 py-1 py-md-2">
                   <p className="about-paragraph-title">Education</p>
                   <p className="about-paragraph-text">
                     I’m a developer pursuing a Master’s in
                     Computer Science at University of North Carolina at Charlotte.
                   </p>
                 </div>
-                <div className="about-paragraph-section text-white px-3 py-2">
+                <div className="about-paragraph-section text-white px-3 px-md-1 py-1 py-md-2">
                   <p className="about-paragraph-title">Experience</p>
                   <p className="about-paragraph-text">
                     Alongside developing a handful of projects with different technologies,

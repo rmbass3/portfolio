@@ -3,21 +3,34 @@
   background-color: var(--blue);
 }
 
-.code-svg {
-  width: 90%;
+.about-img-col, .about-text-col, .code-svg, .about-blob, .about-title, .about-paragraph-title, .about-paragraph-text {
+  transition-duration: 0.4s;
 }
 
 .about-inner-text-col {
   background-color: var(--dark-blue);
+  box-shadow: 15px 15px 0px 0px var(--ocean);
   width: 90%;
 }
 
+.code-svg {
+  width: 18rem;
+}
+
+.about-blob {
+  width: 18rem;
+}
+
 .about-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about-paragraph-title {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.about-paragraph-text {
+  font-size: 0.7rem;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -25,25 +38,115 @@
 
 // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) {
+  .code-svg {
+    width: 18rem;
+  }
+  
+  .about-blob {
+    width: 18rem;
+  }
 
+  .about-title {
+    font-size: 1.6rem;
+  }
+  
+  .about-paragraph-title {
+    font-size: 1.1rem;
+  }
+  
+  .about-paragraph-text {
+    font-size: 0.8rem;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
- 
+  .code-svg {
+    width: 20rem;
+  }
+  
+  .about-blob {
+    width: 20rem;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+  
+  .about-paragraph-title {
+    font-size: 1.1rem;
+  }
+  
+  .about-paragraph-text {
+    font-size: 0.8rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .code-svg {
+    width: 24rem;
+  }
+  
+  .about-blob {
+    width: 24rem;
+  }
 
+  .about-title {
+    font-size: 1.8rem;
+  }
+  
+  .about-paragraph-title {
+    font-size: 1.3rem;
+  }
+  
+  .about-paragraph-text {
+    font-size: 1rem;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .code-svg {
+    width: 30rem;
+  }
+  
+  .about-blob {
+    width: 30rem;
+  }
 
+  .about-title {
+    font-size: 1.9rem;
+  }
+  
+  .about-paragraph-title {
+    font-size: 1.4rem;
+  }
+  
+  .about-paragraph-text {
+    font-size: 1.1rem;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media only screen and (min-width: 1400px) {
+  .code-svg {
+    width: 35rem;
+  }
+  
+  .about-blob {
+    width: 33rem;
+  }
 
+  .about-title {
+    font-size: 2rem;
+  }
+  
+  .about-paragraph-title {
+    font-size: 1.5rem;
+  }
+  
+  .about-paragraph-text {
+    font-size: 1.2rem;
+  }
 }
